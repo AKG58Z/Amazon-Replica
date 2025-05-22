@@ -1,0 +1,221 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+}
+main{
+  min-width: 1080px;
+  min-height: 720px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#headbar1{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(9, 9, 70);
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h1{
+  font-family: monospace;
+}
+#headbar1 *:hover{
+  border: 1px solid white;
+  cursor: pointer;
+}
+#Delivering{
+  font-size: smaller;
+}
+#Update{
+  font-weight: bold;
+}
+#searchbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 45%;
+  height: auto;
+}
+#all{
+  width: 50px;
+  height: 39px;
+  border-radius: 5px 0 0 5px;
+  border: none;
+  background-color: lightgrey;
+  padding-left: 5px;
+}
+#search{
+  width: 100%;
+  height: 35px;
+  border: 1px solid lightgrey;
+  border-radius: 0;
+}
+#searchbutton{
+  width: 60px;
+  height: 39px;
+  border-radius: 0 5px 5px 0;
+  border: none;
+  background-color: orange;
+}
+#country{
+  width: auto;
+  height: 40px;
+  background-color: rgb(0, 0, 92);
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+#headbar2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(0, 0, 92);
+  height: 40px;
+  font-weight: bold;
+}
+#headbar2-1{
+  width: 80%;
+}
+#selling{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: larger;
+  font-weight: bolder;
+  min-width: 300px;
+}
+#headbar2-1 a{
+  color: white;
+  margin: 8px;
+}
+#headbar3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  height: 40px;
+}
+option{
+  border: none;
+}
+hr{
+  border: none;
+  box-shadow: 0px 1px 1px 0.1px grey;
+}
+#headbar3 a{
+  font-size: small;
+}
+#path{
+  font-size: small;
+}
+#section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+#store{
+  color: blue;
+  height: 1px;
+}
+#product-title{
+  color: grey;
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+}
+#right-side{
+  border: 1px solid grey;
+  padding: 18px;
+  margin: 10px;
+  width: 55%;
+}
+#section img{
+  padding: 0 5%;
+}
+#price{
+  font-size: larger;
+  padding: 0;
+  margin: 0;
+}
+#free-return{
+  color: blue;
+}
+#ratings{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#deal{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: darkblue;
+  width: 130px;
+  height: 30px;
+  color: white;
+  border-radius: 5px;
+  margin: 15px 0;
+}
+#list-price{
+  font-size: small;
+  color: gray;
+  font-weight: bold;
+}
+#list-price-cut{
+  text-decoration: line-through;
+}
+#ten-percent{
+  background-color: lightgreen;
+}
+#in-stock{
+  color: green;
+  font-size: large;
+}
+#quantity{
+  width: 100%;
+  height: 5%;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0,0.05);
+}
+#cart-buttons{
+  margin-top: 5px;
+}
+#buy-now,#cart{
+  width: 100%;
+  border: none;
+  border-radius: 15px;
+  padding: 8px;
+  margin: 5px;
+}
+#cart{
+  background-color: yellow;
+}
+#buy-now{
+  background-color: orange;
+}
+#sidebar{
+  display: flex;
+  flex-direction: column;
+  margin: 3px;
+}
+#img{
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px 5px;
+}
+#past{
+  font-size: small;
+  font-weight: bold;
+  margin: 5px 0;
+}
